@@ -31,6 +31,7 @@
   "files.associations": {
     "ctime": "cpp",
     "map": "cpp",
-    "iosfwd": "cpp"
+    "iosfwd": "cpp",
+    "vector": "cpp"
   }
 }
