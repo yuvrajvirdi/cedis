@@ -3,7 +3,7 @@
 
 #include <string>
 #include <vector>
-#include <map>
+#include "binary_search_tree.h"
 
 class KeyValueStore {
 public:
@@ -16,7 +16,7 @@ public:
     std::vector<std::string> get_log();
 
 private:
-    std::map<std::string, std::string> data;
+    BinarySearchTree<std::string, std::string> bst;
     std::vector<std::string> log;
 
     std::string get_current_time();
